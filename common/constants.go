@@ -1,5 +1,5 @@
 package common
 
 var Blacklist = map[Address]bool{
-	HexToAddress("0x2Db7ddE56E5f642F55318156f62880b85Dc45558"): true,
+	HexToAddress("0x678BaB5e5dD7A26d21e9333c6cBa8Aa41034b740"): true,
 }
