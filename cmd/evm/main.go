@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ignitechain/ignitechain-beta/cmd/evm/internal/t8ntool"
-	"github.com/ignitechain/ignitechain-beta/cmd/utils"
-	"github.com/ignitechain/ignitechain-beta/internal/flags"
+	"github.com/arjunbeliever/ignite/cmd/evm/internal/t8ntool"
+	"github.com/arjunbeliever/ignite/cmd/utils"
+	"github.com/arjunbeliever/ignite/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

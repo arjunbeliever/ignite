@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/accounts/keystore"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/console/prompt"
-	"github.com/ignitechain/ignitechain-beta/p2p/dnsdisc"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/accounts/keystore"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/console/prompt"
+	"github.com/arjunbeliever/ignite/p2p/dnsdisc"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

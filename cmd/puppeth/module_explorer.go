@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/log"
 )
 
 // explorerDockerfile is the Dockerfile required to run a block explorer.

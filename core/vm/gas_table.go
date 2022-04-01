@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/common/math"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/common/math"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

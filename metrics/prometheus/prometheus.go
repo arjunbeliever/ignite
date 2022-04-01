@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/metrics"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

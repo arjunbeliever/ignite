@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ignitechain/ignitechain-beta/common"
+	"github.com/arjunbeliever/ignite/common"
 )
 
 func bigFromHex(hex string) *big.Int {

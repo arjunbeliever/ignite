@@ -25,12 +25,12 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/core/vm"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/common/hexutil"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/core/vm"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/log"
 	"gopkg.in/olebedev/go-duktape.v3"
 )
 

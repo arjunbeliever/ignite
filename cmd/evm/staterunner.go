@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ignitechain/ignitechain-beta/core/state"
-	"github.com/ignitechain/ignitechain-beta/core/vm"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/tests"
+	"github.com/arjunbeliever/ignite/core/state"
+	"github.com/arjunbeliever/ignite/core/vm"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ignitechain/ignitechain-beta/accounts/keystore"
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/accounts/keystore"
+	"github.com/arjunbeliever/ignite/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

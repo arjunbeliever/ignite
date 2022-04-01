@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "github.com/ignitechain/ignitechain-beta"
-	"github.com/ignitechain/ignitechain-beta/accounts"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/crypto"
+	ethereum "github.com/arjunbeliever/ignite"
+	"github.com/arjunbeliever/ignite/accounts"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

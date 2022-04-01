@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/ignitechain/ignitechain-beta/core/vm/runtime"
+	"github.com/arjunbeliever/ignite/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

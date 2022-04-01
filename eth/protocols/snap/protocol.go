@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/state/snapshot"
-	"github.com/ignitechain/ignitechain-beta/rlp"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/state/snapshot"
+	"github.com/arjunbeliever/ignite/rlp"
 )
 
 // Constants to match up protocol versions and messages

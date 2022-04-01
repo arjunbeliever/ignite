@@ -17,10 +17,10 @@
 package les
 
 import (
-	"github.com/ignitechain/ignitechain-beta/core/forkid"
-	"github.com/ignitechain/ignitechain-beta/p2p/dnsdisc"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/rlp"
+	"github.com/arjunbeliever/ignite/core/forkid"
+	"github.com/arjunbeliever/ignite/p2p/dnsdisc"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

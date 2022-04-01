@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/ignitechain/ignitechain-beta/rlp"
+	"github.com/arjunbeliever/ignite/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

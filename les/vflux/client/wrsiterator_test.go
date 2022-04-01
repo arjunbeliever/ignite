@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common/mclock"
-	"github.com/ignitechain/ignitechain-beta/p2p/nodestate"
+	"github.com/arjunbeliever/ignite/common/mclock"
+	"github.com/arjunbeliever/ignite/p2p/nodestate"
 )
 
 var (

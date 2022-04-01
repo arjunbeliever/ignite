@@ -21,9 +21,9 @@ package secp256k1
 import (
 	"fmt"
 
+	"github.com/arjunbeliever/ignite/crypto/secp256k1"
 	"github.com/btcsuite/btcd/btcec"
 	fuzz "github.com/google/gofuzz"
-	"github.com/ignitechain/ignitechain-beta/crypto/secp256k1"
 )
 
 func Fuzz(input []byte) int {

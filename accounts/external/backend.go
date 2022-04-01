@@ -21,15 +21,15 @@ import (
 	"math/big"
 	"sync"
 
-	ethereum "github.com/ignitechain/ignitechain-beta"
-	"github.com/ignitechain/ignitechain-beta/accounts"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/event"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/rpc"
-	"github.com/ignitechain/ignitechain-beta/signer/core/apitypes"
+	ethereum "github.com/arjunbeliever/ignite"
+	"github.com/arjunbeliever/ignite/accounts"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/common/hexutil"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/event"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/rpc"
+	"github.com/arjunbeliever/ignite/signer/core/apitypes"
 )
 
 type ExternalBackend struct {

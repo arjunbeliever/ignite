@@ -17,9 +17,9 @@
 package snap
 
 import (
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/p2p"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/p2p"
 )
 
 // Peer is a collection of relevant information we have about a `snap` peer.

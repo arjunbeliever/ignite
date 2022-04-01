@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/core/vm"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/common"
+	"github.com/arjunbeliever/ignite/common"
 )
 
 func (g *G2) one() *PointG2 {

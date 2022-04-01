@@ -21,8 +21,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ignitechain/ignitechain-beta/common/mclock"
-	"github.com/ignitechain/ignitechain-beta/common/prque"
+	"github.com/arjunbeliever/ignite/common/mclock"
+	"github.com/arjunbeliever/ignite/common/prque"
 )
 
 // servingQueue allows running tasks in a limited number of threads and puts the

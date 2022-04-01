@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/consensus"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/core/vm"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/consensus"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

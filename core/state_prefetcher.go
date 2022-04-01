@@ -19,11 +19,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/ignitechain/ignitechain-beta/consensus"
-	"github.com/ignitechain/ignitechain-beta/core/state"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/core/vm"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/consensus"
+	"github.com/arjunbeliever/ignite/core/state"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/core/vm"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

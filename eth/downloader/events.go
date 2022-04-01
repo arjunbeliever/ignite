@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/ignitechain/ignitechain-beta/core/types"
+import "github.com/arjunbeliever/ignite/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

@@ -30,11 +30,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/arjunbeliever/ignite/common/hexutil"
+	"github.com/arjunbeliever/ignite/common/mclock"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
-	"github.com/ignitechain/ignitechain-beta/common/mclock"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
 )
 
 // To regenerate discv5 test vectors, run

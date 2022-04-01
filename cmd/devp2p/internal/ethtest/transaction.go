@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/internal/utesting"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/internal/utesting"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 //var faucetAddr = common.HexToAddress("0x71562b71999873DB5b286dF957af199Ec94617F7")

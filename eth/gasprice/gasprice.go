@@ -22,11 +22,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/params"
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/params"
+	"github.com/arjunbeliever/ignite/rpc"
 )
 
 const sampleNumber = 3 // Number of transactions sampled in a block

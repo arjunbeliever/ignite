@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	"github.com/arjunbeliever/ignite/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {

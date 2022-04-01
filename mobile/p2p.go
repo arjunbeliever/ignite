@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/ignitechain/ignitechain-beta/p2p"
+	"github.com/arjunbeliever/ignite/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

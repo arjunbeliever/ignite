@@ -27,11 +27,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/eth/protocols/eth"
-	"github.com/ignitechain/ignitechain-beta/event"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/p2p/msgrate"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/eth/protocols/eth"
+	"github.com/arjunbeliever/ignite/event"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/p2p/msgrate"
 )
 
 const (

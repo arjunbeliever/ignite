@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/ignitechain/ignitechain-beta/common"
+	"github.com/arjunbeliever/ignite/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

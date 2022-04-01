@@ -29,11 +29,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/p2p/discover/v4wire"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/p2p/netutil"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/p2p/discover/v4wire"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/netutil"
 )
 
 // Errors

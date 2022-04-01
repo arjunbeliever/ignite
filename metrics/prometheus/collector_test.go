@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/metrics"
+	"github.com/arjunbeliever/ignite/metrics"
 )
 
 func TestMain(m *testing.M) {

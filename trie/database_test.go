@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/ethdb/memorydb"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/ethdb/memorydb"
 )
 
 // Tests that the trie database returns a missing trie node error if attempting

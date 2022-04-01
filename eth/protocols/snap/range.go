@@ -19,8 +19,8 @@ package snap
 import (
 	"math/big"
 
+	"github.com/arjunbeliever/ignite/common"
 	"github.com/holiman/uint256"
-	"github.com/ignitechain/ignitechain-beta/common"
 )
 
 // hashRange is a utility to handle ranges of hashes, Split up the

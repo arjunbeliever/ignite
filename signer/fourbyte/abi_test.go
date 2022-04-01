@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/accounts/abi"
-	"github.com/ignitechain/ignitechain-beta/common"
+	"github.com/arjunbeliever/ignite/accounts/abi"
+	"github.com/arjunbeliever/ignite/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

@@ -29,10 +29,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

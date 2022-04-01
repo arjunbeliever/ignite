@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/consensus/ethash"
-	"github.com/ignitechain/ignitechain-beta/core/rawdb"
-	"github.com/ignitechain/ignitechain-beta/core/vm"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/consensus/ethash"
+	"github.com/arjunbeliever/ignite/core/rawdb"
+	"github.com/arjunbeliever/ignite/core/vm"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

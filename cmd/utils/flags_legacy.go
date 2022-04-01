@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/eth/ethconfig"
-	"github.com/ignitechain/ignitechain-beta/node"
+	"github.com/arjunbeliever/ignite/eth/ethconfig"
+	"github.com/arjunbeliever/ignite/node"
 	"gopkg.in/urfave/cli.v1"
 )
 

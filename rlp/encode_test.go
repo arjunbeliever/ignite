@@ -27,7 +27,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/common/math"
+	"github.com/arjunbeliever/ignite/common/math"
 )
 
 type testEncoder struct {

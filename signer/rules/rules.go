@@ -22,12 +22,12 @@ import (
 	"os"
 	"strings"
 
+	"github.com/arjunbeliever/ignite/internal/ethapi"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/signer/core"
+	"github.com/arjunbeliever/ignite/signer/rules/deps"
+	"github.com/arjunbeliever/ignite/signer/storage"
 	"github.com/dop251/goja"
-	"github.com/ignitechain/ignitechain-beta/internal/ethapi"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/signer/core"
-	"github.com/ignitechain/ignitechain-beta/signer/rules/deps"
-	"github.com/ignitechain/ignitechain-beta/signer/storage"
 )
 
 var (

@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/rlp"
-	"github.com/ignitechain/ignitechain-beta/trie"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/rlp"
+	"github.com/arjunbeliever/ignite/trie"
 )
 
 // NodeIterator is an iterator to traverse the entire state trie post-order,

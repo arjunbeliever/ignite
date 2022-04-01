@@ -1,4 +1,4 @@
-module github.com/ignitechain/ignitechain-beta
+module github.com/arjunbeliever/ignite
 
 go 1.15
 

@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/accounts/abi/bind"
-	"github.com/ignitechain/ignitechain-beta/accounts/abi/bind/backends"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/contracts/checkpointoracle/contract"
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/accounts/abi/bind"
+	"github.com/arjunbeliever/ignite/accounts/abi/bind/backends"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/contracts/checkpointoracle/contract"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 var (

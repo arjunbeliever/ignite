@@ -20,7 +20,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 )
 
 const maxSelectionWeight = 1000000000 // maximum selection weight of each individual node/address group

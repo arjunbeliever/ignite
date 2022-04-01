@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/common"
+	"github.com/arjunbeliever/ignite/common"
 )
 
 func TestFacebook(t *testing.T) {

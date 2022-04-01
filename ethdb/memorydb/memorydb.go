@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/ethdb"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/ethdb"
 )
 
 var (

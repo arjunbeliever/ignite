@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/tests/fuzzers/vflux"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/tests/fuzzers/vflux"
 )
 
 func main() {

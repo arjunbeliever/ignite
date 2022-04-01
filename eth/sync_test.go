@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/eth/downloader"
-	"github.com/ignitechain/ignitechain-beta/eth/protocols/eth"
-	"github.com/ignitechain/ignitechain-beta/p2p"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/eth/downloader"
+	"github.com/arjunbeliever/ignite/eth/protocols/eth"
+	"github.com/arjunbeliever/ignite/p2p"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 )
 
 // Tests that fast sync is disabled after a successful sync cycle.

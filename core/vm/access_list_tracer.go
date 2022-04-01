@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/types"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/types"
 )
 
 // accessList is an accumulator for the set of accounts and storage slots an EVM

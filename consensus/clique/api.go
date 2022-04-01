@@ -20,12 +20,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
-	"github.com/ignitechain/ignitechain-beta/consensus"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/rlp"
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/common/hexutil"
+	"github.com/arjunbeliever/ignite/consensus"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/rlp"
+	"github.com/arjunbeliever/ignite/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

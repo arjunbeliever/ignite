@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/signer/core/apitypes"
-	"github.com/ignitechain/ignitechain-beta/signer/fourbyte"
+	"github.com/arjunbeliever/ignite/signer/core/apitypes"
+	"github.com/arjunbeliever/ignite/signer/fourbyte"
 )
 
 func init() {

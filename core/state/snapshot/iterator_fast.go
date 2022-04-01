@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ignitechain/ignitechain-beta/common"
+	"github.com/arjunbeliever/ignite/common"
 )
 
 // weightedIterator is a iterator with an assigned weight. It is used to prioritise

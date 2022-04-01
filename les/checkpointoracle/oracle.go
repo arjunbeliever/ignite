@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/accounts/abi/bind"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/contracts/checkpointoracle"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/accounts/abi/bind"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/contracts/checkpointoracle"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 // CheckpointOracle is responsible for offering the latest stable checkpoint

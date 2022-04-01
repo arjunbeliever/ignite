@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/ignitechain/ignitechain-beta/metrics"
-	"github.com/ignitechain/ignitechain-beta/p2p"
+	"github.com/arjunbeliever/ignite/metrics"
+	"github.com/arjunbeliever/ignite/p2p"
 )
 
 var (

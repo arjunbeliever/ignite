@@ -24,11 +24,11 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/consensus/misc"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/consensus/misc"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/rpc"
 )
 
 var (

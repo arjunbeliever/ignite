@@ -23,8 +23,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/ignitechain/ignitechain-beta/common/math"
-	"github.com/ignitechain/ignitechain-beta/crypto/secp256k1"
+	"github.com/arjunbeliever/ignite/common/math"
+	"github.com/arjunbeliever/ignite/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

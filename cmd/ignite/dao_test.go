@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/rawdb"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/rawdb"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

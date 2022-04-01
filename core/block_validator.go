@@ -19,11 +19,11 @@ package core
 import (
 	"fmt"
 
-	"github.com/ignitechain/ignitechain-beta/consensus"
-	"github.com/ignitechain/ignitechain-beta/core/state"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/params"
-	"github.com/ignitechain/ignitechain-beta/trie"
+	"github.com/arjunbeliever/ignite/consensus"
+	"github.com/arjunbeliever/ignite/core/state"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/params"
+	"github.com/arjunbeliever/ignite/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

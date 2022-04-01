@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/internal/testlog"
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/internal/testlog"
+	"github.com/arjunbeliever/ignite/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

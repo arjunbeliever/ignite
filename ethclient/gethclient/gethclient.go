@@ -23,12 +23,12 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	ethereum "github.com/ignitechain/ignitechain-beta"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/p2p"
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	ethereum "github.com/arjunbeliever/ignite"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/common/hexutil"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/p2p"
+	"github.com/arjunbeliever/ignite/rpc"
 )
 
 // Client is a wrapper around rpc.Client that implements geth-specific functionality.

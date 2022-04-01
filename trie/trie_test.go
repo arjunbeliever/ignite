@@ -30,13 +30,13 @@ import (
 	"testing"
 	"testing/quick"
 
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/ethdb"
+	"github.com/arjunbeliever/ignite/ethdb/leveldb"
+	"github.com/arjunbeliever/ignite/ethdb/memorydb"
+	"github.com/arjunbeliever/ignite/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/ethdb"
-	"github.com/ignitechain/ignitechain-beta/ethdb/leveldb"
-	"github.com/ignitechain/ignitechain-beta/ethdb/memorydb"
-	"github.com/ignitechain/ignitechain-beta/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

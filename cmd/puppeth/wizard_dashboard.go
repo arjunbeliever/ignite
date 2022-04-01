@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

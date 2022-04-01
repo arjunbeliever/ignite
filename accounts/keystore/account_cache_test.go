@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/arjunbeliever/ignite/accounts"
+	"github.com/arjunbeliever/ignite/common"
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ignitechain/ignitechain-beta/accounts"
-	"github.com/ignitechain/ignitechain-beta/common"
 )
 
 var (

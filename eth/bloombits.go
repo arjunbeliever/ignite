@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common/bitutil"
-	"github.com/ignitechain/ignitechain-beta/core/rawdb"
+	"github.com/arjunbeliever/ignite/common/bitutil"
+	"github.com/arjunbeliever/ignite/core/rawdb"
 )
 
 const (

@@ -20,10 +20,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/forkid"
-	"github.com/ignitechain/ignitechain-beta/p2p"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/forkid"
+	"github.com/arjunbeliever/ignite/p2p"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 )
 
 // Tests that handshake failures are detected and reported correctly.

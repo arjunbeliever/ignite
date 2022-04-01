@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
+	"github.com/arjunbeliever/ignite/common"
 	"github.com/holiman/uint256"
-	"github.com/ignitechain/ignitechain-beta/common"
 )
 
 // ContractRef is a reference to the contract's backing object

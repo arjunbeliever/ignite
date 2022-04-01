@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/arjunbeliever/ignite/log"
 	mapset "github.com/deckarep/golang-set"
 	"github.com/gorilla/websocket"
-	"github.com/ignitechain/ignitechain-beta/log"
 )
 
 const (

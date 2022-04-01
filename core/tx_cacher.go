@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/ignitechain/ignitechain-beta/core/types"
+	"github.com/arjunbeliever/ignite/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

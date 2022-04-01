@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/consensus/ethash"
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/core/rawdb"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/consensus/ethash"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/core/rawdb"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 )
 
 // verifyImportEvent verifies that one single event arrive on an import channel.

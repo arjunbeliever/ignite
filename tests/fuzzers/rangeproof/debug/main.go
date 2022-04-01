@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ignitechain/ignitechain-beta/tests/fuzzers/rangeproof"
+	"github.com/arjunbeliever/ignite/tests/fuzzers/rangeproof"
 )
 
 func main() {

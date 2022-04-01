@@ -28,7 +28,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
+	"github.com/arjunbeliever/ignite/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

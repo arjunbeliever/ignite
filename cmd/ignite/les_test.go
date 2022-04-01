@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/p2p"
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	"github.com/arjunbeliever/ignite/p2p"
+	"github.com/arjunbeliever/ignite/rpc"
 )
 
 type gethrpc struct {

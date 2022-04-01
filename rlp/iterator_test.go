@@ -19,7 +19,7 @@ package rlp
 import (
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
+	"github.com/arjunbeliever/ignite/common/hexutil"
 )
 
 // TestIterator tests some basic things about the ListIterator. A more

@@ -19,8 +19,8 @@ package core
 import (
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/state"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/state"
 )
 
 // txNoncer is a tiny virtual state database to manage the executable nonces of

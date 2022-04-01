@@ -35,25 +35,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/accounts"
-	"github.com/ignitechain/ignitechain-beta/accounts/keystore"
-	"github.com/ignitechain/ignitechain-beta/cmd/utils"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/internal/ethapi"
-	"github.com/ignitechain/ignitechain-beta/internal/flags"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/node"
-	"github.com/ignitechain/ignitechain-beta/params"
-	"github.com/ignitechain/ignitechain-beta/rlp"
-	"github.com/ignitechain/ignitechain-beta/rpc"
-	"github.com/ignitechain/ignitechain-beta/signer/core"
-	"github.com/ignitechain/ignitechain-beta/signer/core/apitypes"
-	"github.com/ignitechain/ignitechain-beta/signer/fourbyte"
-	"github.com/ignitechain/ignitechain-beta/signer/rules"
-	"github.com/ignitechain/ignitechain-beta/signer/storage"
+	"github.com/arjunbeliever/ignite/accounts"
+	"github.com/arjunbeliever/ignite/accounts/keystore"
+	"github.com/arjunbeliever/ignite/cmd/utils"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/common/hexutil"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/internal/ethapi"
+	"github.com/arjunbeliever/ignite/internal/flags"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/node"
+	"github.com/arjunbeliever/ignite/params"
+	"github.com/arjunbeliever/ignite/rlp"
+	"github.com/arjunbeliever/ignite/rpc"
+	"github.com/arjunbeliever/ignite/signer/core"
+	"github.com/arjunbeliever/ignite/signer/core/apitypes"
+	"github.com/arjunbeliever/ignite/signer/fourbyte"
+	"github.com/arjunbeliever/ignite/signer/rules"
+	"github.com/arjunbeliever/ignite/signer/storage"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"gopkg.in/urfave/cli.v1"
@@ -795,7 +795,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/ignitechain/ignitechain-beta/issues/20123
+	// https://github.com/arjunbeliever/ignite/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

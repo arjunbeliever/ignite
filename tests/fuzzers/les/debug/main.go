@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ignitechain/ignitechain-beta/tests/fuzzers/les"
+	"github.com/arjunbeliever/ignite/tests/fuzzers/les"
 )
 
 func main() {

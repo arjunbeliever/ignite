@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/cmd/utils"
-	"github.com/ignitechain/ignitechain-beta/crypto"
+	"github.com/arjunbeliever/ignite/cmd/utils"
+	"github.com/arjunbeliever/ignite/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/ignitechain/ignitechain-beta/cmd/devp2p/internal/v4test"
-	"github.com/ignitechain/ignitechain-beta/internal/utesting"
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/cmd/devp2p/internal/v4test"
+	"github.com/arjunbeliever/ignite/internal/utesting"
+	"github.com/arjunbeliever/ignite/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

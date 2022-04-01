@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	"github.com/arjunbeliever/ignite/common/hexutil"
+	"github.com/arjunbeliever/ignite/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

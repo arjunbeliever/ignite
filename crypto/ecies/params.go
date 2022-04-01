@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/ignitechain/ignitechain-beta/crypto"
+	ethcrypto "github.com/arjunbeliever/ignite/crypto"
 )
 
 var (

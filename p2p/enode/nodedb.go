@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/rlp"
+	"github.com/arjunbeliever/ignite/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/iterator"

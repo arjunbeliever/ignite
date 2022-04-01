@@ -25,8 +25,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 )
 
 const jsonIndent = "    "

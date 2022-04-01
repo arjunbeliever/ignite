@@ -19,7 +19,7 @@ package miner
 import (
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/core/types"
+	"github.com/arjunbeliever/ignite/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

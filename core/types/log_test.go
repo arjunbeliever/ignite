@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/common/hexutil"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
 )
 
 var unmarshalLogTests = map[string]struct {

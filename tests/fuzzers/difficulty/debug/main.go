@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ignitechain/ignitechain-beta/tests/fuzzers/difficulty"
+	"github.com/arjunbeliever/ignite/tests/fuzzers/difficulty"
 )
 
 func main() {

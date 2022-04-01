@@ -22,13 +22,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/common/math"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/crypto/blake2b"
-	"github.com/ignitechain/ignitechain-beta/crypto/bls12381"
-	"github.com/ignitechain/ignitechain-beta/crypto/bn256"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/common/math"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/crypto/blake2b"
+	"github.com/arjunbeliever/ignite/crypto/bls12381"
+	"github.com/arjunbeliever/ignite/crypto/bn256"
+	"github.com/arjunbeliever/ignite/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

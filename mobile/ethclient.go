@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/ethclient"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

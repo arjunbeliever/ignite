@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 func minSwapStack(n int) int {

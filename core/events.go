@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/types"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

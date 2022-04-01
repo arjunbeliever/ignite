@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/ignitechain/ignitechain-beta/issues"
-!define UPDATEURL "https://github.com/ignitechain/ignitechain-beta/releases"
-!define ABOUTURL "https://github.com/ignitechain/ignitechain-beta#ethereum-go"
+!define HELPURL "https://github.com/arjunbeliever/ignite/issues"
+!define UPDATEURL "https://github.com/arjunbeliever/ignite/releases"
+!define ABOUTURL "https://github.com/arjunbeliever/ignite#ethereum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

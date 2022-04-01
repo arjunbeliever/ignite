@@ -19,9 +19,9 @@ package state
 import (
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/metrics"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/metrics"
 )
 
 var (

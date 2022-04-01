@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/metrics"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

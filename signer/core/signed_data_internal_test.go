@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
+	"github.com/arjunbeliever/ignite/common/hexutil"
 )
 
 func TestBytesPadding(t *testing.T) {

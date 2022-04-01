@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/node"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/p2p/simulations/adapters"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/node"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/simulations/adapters"
 )
 
 // Tests that a created snapshot with a minimal service only contains the expected connections

@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/p2p/dnsdisc"
 	"github.com/cloudflare/cloudflare-go"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/p2p/dnsdisc"
 	"gopkg.in/urfave/cli.v1"
 )
 

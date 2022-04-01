@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/rawdb"
-	"github.com/ignitechain/ignitechain-beta/core/types"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/rawdb"
+	"github.com/arjunbeliever/ignite/core/types"
 )
 
 // Runs multiple tests with randomized parameters.

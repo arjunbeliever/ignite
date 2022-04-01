@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/forkid"
-	"github.com/ignitechain/ignitechain-beta/p2p"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/forkid"
+	"github.com/arjunbeliever/ignite/p2p"
 )
 
 const (

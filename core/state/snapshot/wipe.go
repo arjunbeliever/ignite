@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/rawdb"
-	"github.com/ignitechain/ignitechain-beta/ethdb"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/metrics"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/rawdb"
+	"github.com/arjunbeliever/ignite/ethdb"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/metrics"
 )
 
 // wipeSnapshot starts a goroutine to iterate over the entire key-value database

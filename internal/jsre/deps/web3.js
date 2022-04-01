@@ -5872,7 +5872,7 @@ module.exports = Shh;
  * @author Alex Beregszaszi <alex@rtfs.hu>
  * @date 2016
  *
- * Reference: https://github.com/ignitechain/ignitechain-beta/blob/swarm/internal/web3ext/web3ext.go#L33
+ * Reference: https://github.com/arjunbeliever/ignite/blob/swarm/internal/web3ext/web3ext.go#L33
  */
 
 "use strict";

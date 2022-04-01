@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/common/hexutil"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 )
 
 func TestVector_ECDH(t *testing.T) {

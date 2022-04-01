@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/arjunbeliever/ignite/internal/cmdtest"
+	"github.com/arjunbeliever/ignite/rpc"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ignitechain/ignitechain-beta/internal/cmdtest"
-	"github.com/ignitechain/ignitechain-beta/rpc"
 )
 
 func tmpdir(t *testing.T) string {

@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 )
 
 // Simulation provides a framework for running actions in a simulated network

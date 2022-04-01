@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/common/math"
+	"github.com/arjunbeliever/ignite/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

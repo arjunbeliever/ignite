@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ignitechain/ignitechain-beta/consensus/ethash"
-	"github.com/ignitechain/ignitechain-beta/core/types"
+	"github.com/arjunbeliever/ignite/consensus/ethash"
+	"github.com/arjunbeliever/ignite/core/types"
 )
 
 type fuzzer struct {

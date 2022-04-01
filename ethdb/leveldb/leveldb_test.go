@@ -19,8 +19,8 @@ package leveldb
 import (
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/ethdb"
-	"github.com/ignitechain/ignitechain-beta/ethdb/dbtest"
+	"github.com/arjunbeliever/ignite/ethdb"
+	"github.com/arjunbeliever/ignite/ethdb/dbtest"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 )

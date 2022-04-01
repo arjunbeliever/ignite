@@ -25,9 +25,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/arjunbeliever/ignite/accounts"
+	"github.com/arjunbeliever/ignite/crypto"
 	"github.com/google/uuid"
-	"github.com/ignitechain/ignitechain-beta/accounts"
-	"github.com/ignitechain/ignitechain-beta/crypto"
 	"golang.org/x/crypto/pbkdf2"
 )
 

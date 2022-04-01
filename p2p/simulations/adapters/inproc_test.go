@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/p2p/simulations/pipes"
+	"github.com/arjunbeliever/ignite/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

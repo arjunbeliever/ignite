@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

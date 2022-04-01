@@ -21,12 +21,12 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	cmath "github.com/ignitechain/ignitechain-beta/common/math"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/core/vm"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/common"
+	cmath "github.com/arjunbeliever/ignite/common/math"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/core/vm"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 var emptyCodeHash = crypto.Keccak256Hash(nil)

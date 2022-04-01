@@ -25,10 +25,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/arjunbeliever/ignite/internal/testlog"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/rpc"
 	"github.com/gorilla/websocket"
-	"github.com/ignitechain/ignitechain-beta/internal/testlog"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

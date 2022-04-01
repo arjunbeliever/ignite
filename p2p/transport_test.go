@@ -22,9 +22,9 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/p2p/simulations/pipes"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/p2p/simulations/pipes"
 )
 
 func TestProtocolHandshake(t *testing.T) {

@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/arjunbeliever/ignite/internal/ethapi"
+	"github.com/arjunbeliever/ignite/node"
 	"github.com/graph-gophers/graphql-go"
-	"github.com/ignitechain/ignitechain-beta/internal/ethapi"
-	"github.com/ignitechain/ignitechain-beta/node"
 )
 
 type handler struct {

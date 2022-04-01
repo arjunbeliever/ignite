@@ -19,7 +19,7 @@ package bitutil
 import (
 	"bytes"
 
-	"github.com/ignitechain/ignitechain-beta/common/bitutil"
+	"github.com/arjunbeliever/ignite/common/bitutil"
 )
 
 // Fuzz implements a go-fuzz fuzzer method to test various encoding method

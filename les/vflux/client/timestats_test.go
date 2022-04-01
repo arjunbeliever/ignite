@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/les/utils"
+	"github.com/arjunbeliever/ignite/les/utils"
 )
 
 func TestTransition(t *testing.T) {

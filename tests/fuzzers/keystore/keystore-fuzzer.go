@@ -19,7 +19,7 @@ package keystore
 import (
 	"os"
 
-	"github.com/ignitechain/ignitechain-beta/accounts/keystore"
+	"github.com/arjunbeliever/ignite/accounts/keystore"
 )
 
 func Fuzz(input []byte) int {

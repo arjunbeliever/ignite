@@ -27,10 +27,10 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/p2p/enr"
-	"github.com/ignitechain/ignitechain-beta/p2p/netutil"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/enr"
+	"github.com/arjunbeliever/ignite/p2p/netutil"
 )
 
 func TestTable_pingReplace(t *testing.T) {

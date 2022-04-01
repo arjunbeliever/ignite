@@ -28,10 +28,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/ethdb"
-	"github.com/ignitechain/ignitechain-beta/p2p"
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/ethdb"
+	"github.com/arjunbeliever/ignite/p2p"
+	"github.com/arjunbeliever/ignite/rpc"
 
 	"github.com/stretchr/testify/assert"
 )

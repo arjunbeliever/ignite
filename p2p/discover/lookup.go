@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 )
 
 // lookup performs a network search for nodes close to the given target. It approaches the

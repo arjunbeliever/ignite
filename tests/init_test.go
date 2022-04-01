@@ -30,7 +30,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 var (

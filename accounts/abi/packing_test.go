@@ -19,7 +19,7 @@ package abi
 import (
 	"math/big"
 
-	"github.com/ignitechain/ignitechain-beta/common"
+	"github.com/arjunbeliever/ignite/common"
 )
 
 type packUnpackTest struct {

@@ -21,11 +21,11 @@ import (
 	"fmt"
 
 	"github.com/VictoriaMetrics/fastcache"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/rawdb"
+	"github.com/arjunbeliever/ignite/ethdb"
+	"github.com/arjunbeliever/ignite/trie"
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/rawdb"
-	"github.com/ignitechain/ignitechain-beta/ethdb"
-	"github.com/ignitechain/ignitechain-beta/trie"
 )
 
 const (

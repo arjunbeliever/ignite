@@ -21,7 +21,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ignitechain/ignitechain-beta/rlp"
+	"github.com/arjunbeliever/ignite/rlp"
 )
 
 var ErrNoReply = errors.New("no reply for given request")

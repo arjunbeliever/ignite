@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/ignitechain/ignitechain-beta/metrics"
+	"github.com/arjunbeliever/ignite/metrics"
 )
 
 var (

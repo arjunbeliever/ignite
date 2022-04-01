@@ -21,9 +21,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/params"
-	"github.com/ignitechain/ignitechain-beta/rlp"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/params"
+	"github.com/arjunbeliever/ignite/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

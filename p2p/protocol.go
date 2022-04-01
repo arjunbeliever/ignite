@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/p2p/enr"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

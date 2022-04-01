@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/eth"
-	"github.com/ignitechain/ignitechain-beta/eth/ethconfig"
-	"github.com/ignitechain/ignitechain-beta/internal/utesting"
-	"github.com/ignitechain/ignitechain-beta/node"
-	"github.com/ignitechain/ignitechain-beta/p2p"
+	"github.com/arjunbeliever/ignite/eth"
+	"github.com/arjunbeliever/ignite/eth/ethconfig"
+	"github.com/arjunbeliever/ignite/internal/utesting"
+	"github.com/arjunbeliever/ignite/node"
+	"github.com/arjunbeliever/ignite/p2p"
 )
 
 var (

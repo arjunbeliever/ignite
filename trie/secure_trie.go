@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

@@ -20,15 +20,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/consensus/ethash"
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/core/rawdb"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/eth"
-	"github.com/ignitechain/ignitechain-beta/eth/ethconfig"
-	"github.com/ignitechain/ignitechain-beta/node"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/consensus/ethash"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/core/rawdb"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/eth"
+	"github.com/arjunbeliever/ignite/eth/ethconfig"
+	"github.com/arjunbeliever/ignite/node"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 var (

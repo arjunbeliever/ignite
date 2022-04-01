@@ -23,9 +23,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/internal/utesting"
-	"github.com/ignitechain/ignitechain-beta/p2p/discover/v4wire"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/internal/utesting"
+	"github.com/arjunbeliever/ignite/p2p/discover/v4wire"
 )
 
 const (

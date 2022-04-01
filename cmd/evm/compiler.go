@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/ignitechain/ignitechain-beta/cmd/evm/internal/compiler"
+	"github.com/arjunbeliever/ignite/cmd/evm/internal/compiler"
 
 	"gopkg.in/urfave/cli.v1"
 )

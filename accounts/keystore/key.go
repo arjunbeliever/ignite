@@ -29,10 +29,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/arjunbeliever/ignite/accounts"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/crypto"
 	"github.com/google/uuid"
-	"github.com/ignitechain/ignitechain-beta/accounts"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/crypto"
 )
 
 const (

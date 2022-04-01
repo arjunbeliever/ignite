@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/common"
+	"github.com/arjunbeliever/ignite/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

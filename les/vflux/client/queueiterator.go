@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/p2p/nodestate"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/nodestate"
 )
 
 // QueueIterator returns nodes from the specified selectable set in the same order as

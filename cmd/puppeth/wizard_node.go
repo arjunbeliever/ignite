@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/accounts/keystore"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/accounts/keystore"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

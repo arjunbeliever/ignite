@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/light"
+	"github.com/arjunbeliever/ignite/light"
 )
 
 var (

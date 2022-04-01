@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/arjunbeliever/ignite/core"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ignitechain/ignitechain-beta/core"
 )
 
 // Tests the go-ethereum to Aleth chainspec conversion for the Stureby testnet.

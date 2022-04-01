@@ -19,9 +19,9 @@ package client
 import (
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common/mclock"
-	"github.com/ignitechain/ignitechain-beta/les/utils"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/common/mclock"
+	"github.com/arjunbeliever/ignite/les/utils"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 )
 
 // PrivateClientAPI implements the vflux client side API

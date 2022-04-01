@@ -14,7 +14,7 @@
 package secp256k1
 
 import (
-	_ "github.com/ignitechain/ignitechain-beta/crypto/secp256k1/libsecp256k1/include"
-	_ "github.com/ignitechain/ignitechain-beta/crypto/secp256k1/libsecp256k1/src"
-	_ "github.com/ignitechain/ignitechain-beta/crypto/secp256k1/libsecp256k1/src/modules/recovery"
+	_ "github.com/arjunbeliever/ignite/crypto/secp256k1/libsecp256k1/include"
+	_ "github.com/arjunbeliever/ignite/crypto/secp256k1/libsecp256k1/src"
+	_ "github.com/arjunbeliever/ignite/crypto/secp256k1/libsecp256k1/src/modules/recovery"
 )

@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

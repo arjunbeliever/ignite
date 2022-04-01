@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	ethereum "github.com/ignitechain/ignitechain-beta"
-	"github.com/ignitechain/ignitechain-beta/common"
+	ethereum "github.com/arjunbeliever/ignite"
+	"github.com/arjunbeliever/ignite/common"
 )
 
 // Subscription represents an event subscription where events are

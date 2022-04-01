@@ -27,14 +27,14 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/ignitechain/ignitechain-beta/cmd/utils"
-	"github.com/ignitechain/ignitechain-beta/eth/catalyst"
-	"github.com/ignitechain/ignitechain-beta/eth/ethconfig"
-	"github.com/ignitechain/ignitechain-beta/internal/ethapi"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/metrics"
-	"github.com/ignitechain/ignitechain-beta/node"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/cmd/utils"
+	"github.com/arjunbeliever/ignite/eth/catalyst"
+	"github.com/arjunbeliever/ignite/eth/ethconfig"
+	"github.com/arjunbeliever/ignite/internal/ethapi"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/metrics"
+	"github.com/arjunbeliever/ignite/node"
+	"github.com/arjunbeliever/ignite/params"
 	"github.com/naoina/toml"
 )
 

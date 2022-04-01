@@ -22,7 +22,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 )
 
 // Enode represents a host on the network.

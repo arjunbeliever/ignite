@@ -23,10 +23,10 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/arjunbeliever/ignite/accounts/keystore"
+	"github.com/arjunbeliever/ignite/cmd/utils"
+	"github.com/arjunbeliever/ignite/crypto"
 	"github.com/google/uuid"
-	"github.com/ignitechain/ignitechain-beta/accounts/keystore"
-	"github.com/ignitechain/ignitechain-beta/cmd/utils"
-	"github.com/ignitechain/ignitechain-beta/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

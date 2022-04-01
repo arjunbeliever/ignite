@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/ignitechain/ignitechain-beta/core/vm"
+	"github.com/arjunbeliever/ignite/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

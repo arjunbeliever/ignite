@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

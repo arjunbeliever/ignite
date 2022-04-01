@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/common/hexutil"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

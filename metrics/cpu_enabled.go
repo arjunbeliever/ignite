@@ -19,7 +19,7 @@
 package metrics
 
 import (
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

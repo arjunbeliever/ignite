@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/arjunbeliever/ignite/accounts/abi"
 	fuzz "github.com/google/gofuzz"
-	"github.com/ignitechain/ignitechain-beta/accounts/abi"
 )
 
 var (

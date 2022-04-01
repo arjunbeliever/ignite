@@ -27,8 +27,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/crypto"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/crypto"
 )
 
 func tmpKeyStoreIface(t *testing.T, encrypted bool) (dir string, ks keyStore) {

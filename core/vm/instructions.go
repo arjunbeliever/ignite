@@ -17,10 +17,10 @@
 package vm
 
 import (
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/params"
 	"github.com/holiman/uint256"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/params"
 	"golang.org/x/crypto/sha3"
 )
 

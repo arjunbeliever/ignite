@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ignitechain/ignitechain-beta/node"
+	"github.com/arjunbeliever/ignite/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

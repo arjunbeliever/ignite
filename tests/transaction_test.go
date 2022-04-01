@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 func TestTransaction(t *testing.T) {

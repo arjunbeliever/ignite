@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/arjunbeliever/ignite/accounts/scwallet"
+	"github.com/arjunbeliever/ignite/accounts/usbwallet"
+	"github.com/arjunbeliever/ignite/common/hexutil"
+	"github.com/arjunbeliever/ignite/console/prompt"
+	"github.com/arjunbeliever/ignite/internal/jsre"
+	"github.com/arjunbeliever/ignite/rpc"
 	"github.com/dop251/goja"
-	"github.com/ignitechain/ignitechain-beta/accounts/scwallet"
-	"github.com/ignitechain/ignitechain-beta/accounts/usbwallet"
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
-	"github.com/ignitechain/ignitechain-beta/console/prompt"
-	"github.com/ignitechain/ignitechain-beta/internal/jsre"
-	"github.com/ignitechain/ignitechain-beta/rpc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime

@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/p2p/enr"
+	"github.com/arjunbeliever/ignite/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

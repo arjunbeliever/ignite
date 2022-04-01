@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common/bitutil"
-	"github.com/ignitechain/ignitechain-beta/light"
+	"github.com/arjunbeliever/ignite/common/bitutil"
+	"github.com/arjunbeliever/ignite/light"
 )
 
 const (

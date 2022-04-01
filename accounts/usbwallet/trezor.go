@@ -27,13 +27,13 @@ import (
 	"io"
 	"math/big"
 
+	"github.com/arjunbeliever/ignite/accounts"
+	"github.com/arjunbeliever/ignite/accounts/usbwallet/trezor"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/common/hexutil"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/log"
 	"github.com/golang/protobuf/proto"
-	"github.com/ignitechain/ignitechain-beta/accounts"
-	"github.com/ignitechain/ignitechain-beta/accounts/usbwallet/trezor"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/log"
 )
 
 // ErrTrezorPINNeeded is returned if opening the trezor requires a PIN code. In

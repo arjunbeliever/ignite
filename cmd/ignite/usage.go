@@ -22,9 +22,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/ignitechain/ignitechain-beta/cmd/utils"
-	"github.com/ignitechain/ignitechain-beta/internal/debug"
-	"github.com/ignitechain/ignitechain-beta/internal/flags"
+	"github.com/arjunbeliever/ignite/cmd/utils"
+	"github.com/arjunbeliever/ignite/internal/debug"
+	"github.com/arjunbeliever/ignite/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

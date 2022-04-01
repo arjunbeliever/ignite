@@ -22,9 +22,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/p2p/discover/v4wire"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/p2p/discover/v4wire"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 )
 
 const waitTime = 300 * time.Millisecond

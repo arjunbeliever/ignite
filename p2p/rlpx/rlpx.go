@@ -34,10 +34,10 @@ import (
 	"net"
 	"time"
 
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/crypto/ecies"
+	"github.com/arjunbeliever/ignite/rlp"
 	"github.com/golang/snappy"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/crypto/ecies"
-	"github.com/ignitechain/ignitechain-beta/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

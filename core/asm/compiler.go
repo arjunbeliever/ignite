@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/common/math"
-	"github.com/ignitechain/ignitechain-beta/core/vm"
+	"github.com/arjunbeliever/ignite/common/math"
+	"github.com/arjunbeliever/ignite/core/vm"
 )
 
 // Compiler contains information about the parsed source

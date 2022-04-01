@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common"
+	"github.com/arjunbeliever/ignite/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

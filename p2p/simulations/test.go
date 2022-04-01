@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/p2p"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/p2p/enr"
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	"github.com/arjunbeliever/ignite/p2p"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/enr"
+	"github.com/arjunbeliever/ignite/rpc"
 )
 
 // NoopService is the service that does not do anything

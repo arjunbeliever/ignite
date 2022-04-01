@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/core/vm"
+	"github.com/arjunbeliever/ignite/core/vm"
 )
 
 func TestState(t *testing.T) {

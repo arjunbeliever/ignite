@@ -19,9 +19,9 @@ package core
 import (
 	"context"
 
-	"github.com/ignitechain/ignitechain-beta/internal/ethapi"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	"github.com/arjunbeliever/ignite/internal/ethapi"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/rpc"
 )
 
 type StdIOUI struct {

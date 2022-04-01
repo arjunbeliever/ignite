@@ -27,14 +27,14 @@ import (
 	"testing"
 	"time"
 
-	ethereum "github.com/ignitechain/ignitechain-beta"
-	"github.com/ignitechain/ignitechain-beta/accounts/abi"
-	"github.com/ignitechain/ignitechain-beta/accounts/abi/bind"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/params"
+	ethereum "github.com/arjunbeliever/ignite"
+	"github.com/arjunbeliever/ignite/accounts/abi"
+	"github.com/arjunbeliever/ignite/accounts/abi/bind"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 func TestSimulatedBackend(t *testing.T) {

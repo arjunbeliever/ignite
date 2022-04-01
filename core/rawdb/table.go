@@ -17,7 +17,7 @@
 package rawdb
 
 import (
-	"github.com/ignitechain/ignitechain-beta/ethdb"
+	"github.com/arjunbeliever/ignite/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

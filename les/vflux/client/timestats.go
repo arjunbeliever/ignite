@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/les/utils"
-	"github.com/ignitechain/ignitechain-beta/rlp"
+	"github.com/arjunbeliever/ignite/les/utils"
+	"github.com/arjunbeliever/ignite/rlp"
 )
 
 const (

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/event"
+	"github.com/arjunbeliever/ignite/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/ignitechain/ignitechain-beta/les/utils"
-	"github.com/ignitechain/ignitechain-beta/rlp"
+	"github.com/arjunbeliever/ignite/les/utils"
+	"github.com/arjunbeliever/ignite/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor

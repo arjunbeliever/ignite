@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/log"
 )
 
 // measurementImpact is the impact a single measurement has on a peer's final

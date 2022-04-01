@@ -24,14 +24,14 @@ import (
 	"net"
 	"sync"
 
+	"github.com/arjunbeliever/ignite/event"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/node"
+	"github.com/arjunbeliever/ignite/p2p"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/simulations/pipes"
+	"github.com/arjunbeliever/ignite/rpc"
 	"github.com/gorilla/websocket"
-	"github.com/ignitechain/ignitechain-beta/event"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/node"
-	"github.com/ignitechain/ignitechain-beta/p2p"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/p2p/simulations/pipes"
-	"github.com/ignitechain/ignitechain-beta/rpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

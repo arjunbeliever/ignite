@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/metrics"
-	"github.com/ignitechain/ignitechain-beta/metrics/prometheus"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/metrics"
+	"github.com/arjunbeliever/ignite/metrics/prometheus"
 )
 
 type exp struct {

@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core/state"
+	"github.com/arjunbeliever/ignite/params"
 	"github.com/holiman/uint256"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core/state"
-	"github.com/ignitechain/ignitechain-beta/params"
 )
 
 type dummyContractRef struct {

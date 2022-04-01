@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

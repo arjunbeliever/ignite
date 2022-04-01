@@ -19,7 +19,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/crypto"
+	"github.com/arjunbeliever/ignite/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

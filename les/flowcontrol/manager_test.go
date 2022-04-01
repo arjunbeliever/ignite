@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common/mclock"
+	"github.com/arjunbeliever/ignite/common/mclock"
 )
 
 type testNode struct {

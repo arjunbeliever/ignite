@@ -23,17 +23,17 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/consensus/misc"
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/core/state"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/eth"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/node"
-	chainParams "github.com/ignitechain/ignitechain-beta/params"
-	"github.com/ignitechain/ignitechain-beta/rpc"
-	"github.com/ignitechain/ignitechain-beta/trie"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/consensus/misc"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/core/state"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/eth"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/node"
+	chainParams "github.com/arjunbeliever/ignite/params"
+	"github.com/arjunbeliever/ignite/rpc"
+	"github.com/arjunbeliever/ignite/trie"
 )
 
 // Register adds catalyst APIs to the node.

@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/common"
+	"github.com/arjunbeliever/ignite/common"
 )
 
 type AddrLocker struct {

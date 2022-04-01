@@ -31,11 +31,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/internal/testlog"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/p2p/discover/v4wire"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/p2p/enr"
+	"github.com/arjunbeliever/ignite/internal/testlog"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/p2p/discover/v4wire"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/enr"
 )
 
 // shared test variables

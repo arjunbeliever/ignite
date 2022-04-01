@@ -25,7 +25,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/log"
 	"github.com/jedisct1/go-minisign"
 	"gopkg.in/urfave/cli.v1"
 )

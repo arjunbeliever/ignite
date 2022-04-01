@@ -41,24 +41,24 @@ import (
 	"sync"
 	"time"
 
+	"github.com/arjunbeliever/ignite/accounts"
+	"github.com/arjunbeliever/ignite/accounts/keystore"
+	"github.com/arjunbeliever/ignite/cmd/utils"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/core/types"
+	"github.com/arjunbeliever/ignite/eth/downloader"
+	"github.com/arjunbeliever/ignite/eth/ethconfig"
+	"github.com/arjunbeliever/ignite/ethclient"
+	"github.com/arjunbeliever/ignite/ethstats"
+	"github.com/arjunbeliever/ignite/les"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/node"
+	"github.com/arjunbeliever/ignite/p2p"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/nat"
+	"github.com/arjunbeliever/ignite/params"
 	"github.com/gorilla/websocket"
-	"github.com/ignitechain/ignitechain-beta/accounts"
-	"github.com/ignitechain/ignitechain-beta/accounts/keystore"
-	"github.com/ignitechain/ignitechain-beta/cmd/utils"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/core/types"
-	"github.com/ignitechain/ignitechain-beta/eth/downloader"
-	"github.com/ignitechain/ignitechain-beta/eth/ethconfig"
-	"github.com/ignitechain/ignitechain-beta/ethclient"
-	"github.com/ignitechain/ignitechain-beta/ethstats"
-	"github.com/ignitechain/ignitechain-beta/les"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/node"
-	"github.com/ignitechain/ignitechain-beta/p2p"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/p2p/nat"
-	"github.com/ignitechain/ignitechain-beta/params"
 )
 
 var (
@@ -469,7 +469,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/ignitechain/ignitechain-beta/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/arjunbeliever/ignite/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

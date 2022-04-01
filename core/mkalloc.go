@@ -34,8 +34,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/rlp"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

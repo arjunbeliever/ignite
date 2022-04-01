@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/les/utils"
+	"github.com/arjunbeliever/ignite/les/utils"
 )
 
 func checkU64(t *testing.T, name string, value, exp uint64) {

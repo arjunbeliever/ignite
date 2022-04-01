@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/p2p"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/p2p/simulations"
-	"github.com/ignitechain/ignitechain-beta/p2p/simulations/adapters"
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/p2p"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/simulations"
+	"github.com/arjunbeliever/ignite/p2p/simulations/adapters"
+	"github.com/arjunbeliever/ignite/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

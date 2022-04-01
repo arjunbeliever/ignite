@@ -23,10 +23,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ignitechain/ignitechain-beta/accounts/abi/bind"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/contracts/checkpointoracle/contract"
-	"github.com/ignitechain/ignitechain-beta/core/types"
+	"github.com/arjunbeliever/ignite/accounts/abi/bind"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/contracts/checkpointoracle/contract"
+	"github.com/arjunbeliever/ignite/core/types"
 )
 
 // CheckpointOracle is a Go wrapper around an on-chain checkpoint oracle contract.

@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/signer/core/apitypes"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/signer/core/apitypes"
 )
 
 // ValidateTransaction does a number of checks on the supplied transaction, and
@@ -49,7 +49,7 @@ func (db *Database) ValidateTransaction(selector *string, tx *apitypes.SendTxArg
 	if tx.To == nil {
 		// Contract creation should contain sufficient data to deploy a contract. A
 		// typical error is omitting sender due to some quirk in the javascript call
-		// e.g. https://github.com/ignitechain/ignitechain-beta/issues/16106.
+		// e.g. https://github.com/arjunbeliever/ignite/issues/16106.
 		if len(data) == 0 {
 			// Prevent sending ether into black hole (show stopper)
 			if tx.Value.ToInt().Cmp(big.NewInt(0)) > 0 {

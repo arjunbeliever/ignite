@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/ignitechain/ignitechain-beta/console/prompt"
+	"github.com/arjunbeliever/ignite/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	ethereum "github.com/ignitechain/ignitechain-beta"
-	"github.com/ignitechain/ignitechain-beta/event"
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	ethereum "github.com/arjunbeliever/ignite"
+	"github.com/arjunbeliever/ignite/event"
+	"github.com/arjunbeliever/ignite/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

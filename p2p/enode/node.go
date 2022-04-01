@@ -26,8 +26,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/p2p/enr"
-	"github.com/ignitechain/ignitechain-beta/rlp"
+	"github.com/arjunbeliever/ignite/p2p/enr"
+	"github.com/arjunbeliever/ignite/rlp"
 )
 
 var errMissingPrefix = errors.New("missing 'enr:' prefix for base64-encoded record")

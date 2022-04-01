@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ignitechain/ignitechain-beta/core/types"
+	"github.com/arjunbeliever/ignite/core/types"
 )
 
 // resultStore implements a structure for maintaining fetchResults, tracking their

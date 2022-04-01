@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/ignitechain/ignitechain-beta/accounts"
-	"github.com/ignitechain/ignitechain-beta/accounts/abi/bind"
-	"github.com/ignitechain/ignitechain-beta/accounts/external"
-	"github.com/ignitechain/ignitechain-beta/cmd/utils"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/contracts/checkpointoracle"
-	"github.com/ignitechain/ignitechain-beta/ethclient"
-	"github.com/ignitechain/ignitechain-beta/params"
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	"github.com/arjunbeliever/ignite/accounts"
+	"github.com/arjunbeliever/ignite/accounts/abi/bind"
+	"github.com/arjunbeliever/ignite/accounts/external"
+	"github.com/arjunbeliever/ignite/cmd/utils"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/contracts/checkpointoracle"
+	"github.com/arjunbeliever/ignite/ethclient"
+	"github.com/arjunbeliever/ignite/params"
+	"github.com/arjunbeliever/ignite/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

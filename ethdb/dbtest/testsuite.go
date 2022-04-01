@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/ethdb"
+	"github.com/arjunbeliever/ignite/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ignitechain/ignitechain-beta/common/fdlimit"
-	"github.com/ignitechain/ignitechain-beta/internal/flags"
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/common/fdlimit"
+	"github.com/arjunbeliever/ignite/internal/flags"
+	"github.com/arjunbeliever/ignite/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

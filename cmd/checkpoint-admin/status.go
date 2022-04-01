@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/ignitechain/ignitechain-beta/cmd/utils"
-	"github.com/ignitechain/ignitechain-beta/common"
+	"github.com/arjunbeliever/ignite/cmd/utils"
+	"github.com/arjunbeliever/ignite/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

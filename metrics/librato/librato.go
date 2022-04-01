@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/metrics"
+	"github.com/arjunbeliever/ignite/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

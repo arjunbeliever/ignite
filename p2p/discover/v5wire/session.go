@@ -22,10 +22,10 @@ import (
 	"encoding/binary"
 	"time"
 
+	"github.com/arjunbeliever/ignite/common/mclock"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 	"github.com/hashicorp/golang-lru/simplelru"
-	"github.com/ignitechain/ignitechain-beta/common/mclock"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
 )
 
 const handshakeTimeout = time.Second

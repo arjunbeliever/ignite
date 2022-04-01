@@ -17,9 +17,9 @@
 package vm
 
 import (
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/common/math"
 	"github.com/holiman/uint256"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/common/math"
 )
 
 // calcMemSize64 calculates the required memory size, and returns

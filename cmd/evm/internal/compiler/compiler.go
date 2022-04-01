@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ignitechain/ignitechain-beta/core/asm"
+	"github.com/arjunbeliever/ignite/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

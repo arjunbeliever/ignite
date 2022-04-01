@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/ignitechain/ignitechain-beta/metrics"
+	"github.com/arjunbeliever/ignite/metrics"
 )
 
 const (

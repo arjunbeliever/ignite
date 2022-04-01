@@ -24,10 +24,10 @@ import (
 	"os"
 	"runtime"
 
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/metrics"
+	"github.com/arjunbeliever/ignite/metrics/exp"
 	"github.com/fjl/memsize/memsizeui"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/metrics"
-	"github.com/ignitechain/ignitechain-beta/metrics/exp"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"gopkg.in/urfave/cli.v1"

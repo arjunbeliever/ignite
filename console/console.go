@@ -28,12 +28,12 @@ import (
 	"strings"
 	"syscall"
 
+	"github.com/arjunbeliever/ignite/console/prompt"
+	"github.com/arjunbeliever/ignite/internal/jsre"
+	"github.com/arjunbeliever/ignite/internal/jsre/deps"
+	"github.com/arjunbeliever/ignite/internal/web3ext"
+	"github.com/arjunbeliever/ignite/rpc"
 	"github.com/dop251/goja"
-	"github.com/ignitechain/ignitechain-beta/console/prompt"
-	"github.com/ignitechain/ignitechain-beta/internal/jsre"
-	"github.com/ignitechain/ignitechain-beta/internal/jsre/deps"
-	"github.com/ignitechain/ignitechain-beta/internal/web3ext"
-	"github.com/ignitechain/ignitechain-beta/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

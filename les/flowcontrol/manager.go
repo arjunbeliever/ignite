@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common/mclock"
-	"github.com/ignitechain/ignitechain-beta/common/prque"
+	"github.com/arjunbeliever/ignite/common/mclock"
+	"github.com/arjunbeliever/ignite/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

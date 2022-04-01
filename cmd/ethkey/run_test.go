@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/arjunbeliever/ignite/internal/cmdtest"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ignitechain/ignitechain-beta/internal/cmdtest"
 )
 
 type testEthkey struct {

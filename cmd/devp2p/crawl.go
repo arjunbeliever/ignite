@@ -19,8 +19,8 @@ package main
 import (
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 )
 
 type crawler struct {

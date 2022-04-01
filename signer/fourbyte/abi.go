@@ -23,8 +23,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/accounts/abi"
-	"github.com/ignitechain/ignitechain-beta/common"
+	"github.com/arjunbeliever/ignite/accounts/abi"
+	"github.com/arjunbeliever/ignite/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

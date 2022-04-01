@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/light"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/light"
 )
 
 func TestLightPruner(t *testing.T) {

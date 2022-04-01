@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
-	"github.com/ignitechain/ignitechain-beta/log"
-	"github.com/ignitechain/ignitechain-beta/rlp"
-	"github.com/ignitechain/ignitechain-beta/trie"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/common/hexutil"
+	"github.com/arjunbeliever/ignite/log"
+	"github.com/arjunbeliever/ignite/rlp"
+	"github.com/arjunbeliever/ignite/trie"
 )
 
 // DumpConfig is a set of options to control what portions of the statewill be

@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/rlp"
 )
 
 // EIP-8 test vectors.

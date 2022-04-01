@@ -20,7 +20,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/common/mclock"
+	"github.com/arjunbeliever/ignite/common/mclock"
 )
 
 // ExpiredValue is a scalar value that is continuously expired (decreased

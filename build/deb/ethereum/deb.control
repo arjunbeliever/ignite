@@ -5,8 +5,8 @@ Maintainer: {{.Author}}
 Build-Depends: debhelper (>= 8.0.0), {{.GoBootPackage}}
 Standards-Version: 3.9.5
 Homepage: https://ethereum.org
-Vcs-Git: git://github.com/ignitechain/ignitechain-beta.git
-Vcs-Browser: https://github.com/ignitechain/ignitechain-beta
+Vcs-Git: git://github.com/arjunbeliever/ignite.git
+Vcs-Browser: https://github.com/arjunbeliever/ignite
 
 Package: {{.Name}}
 Architecture: any

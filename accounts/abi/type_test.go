@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/arjunbeliever/ignite/common"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ignitechain/ignitechain-beta/common"
 )
 
 // typeWithoutStringer is a alias for the Type type which simply doesn't implement

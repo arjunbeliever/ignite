@@ -17,7 +17,7 @@
 package snap
 
 import (
-	"github.com/ignitechain/ignitechain-beta/rlp"
+	"github.com/arjunbeliever/ignite/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `snap` protocol on the discovery.

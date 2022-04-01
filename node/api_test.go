@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	"github.com/arjunbeliever/ignite/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

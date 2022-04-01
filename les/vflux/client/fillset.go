@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/p2p/nodestate"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/nodestate"
 )
 
 // FillSet tries to read nodes from an input iterator and add them to a node set by

@@ -25,10 +25,10 @@ import (
 	"io"
 	"math/big"
 
+	"github.com/arjunbeliever/ignite/crypto/bls12381"
 	gnark "github.com/consensys/gnark-crypto/ecc/bls12-381"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fp"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr"
-	"github.com/ignitechain/ignitechain-beta/crypto/bls12381"
 )
 
 func FuzzCrossPairing(data []byte) int {

@@ -19,8 +19,8 @@ package trie
 import (
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/rlp"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

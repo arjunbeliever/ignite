@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/ignitechain/ignitechain-beta/event"
+	"github.com/arjunbeliever/ignite/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

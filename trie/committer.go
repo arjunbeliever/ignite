@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/crypto"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/crypto"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/cmd/devp2p/internal/v5test"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/p2p/discover"
+	"github.com/arjunbeliever/ignite/cmd/devp2p/internal/v5test"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/p2p/discover"
 	"gopkg.in/urfave/cli.v1"
 )
 

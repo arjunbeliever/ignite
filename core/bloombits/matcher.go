@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common/bitutil"
-	"github.com/ignitechain/ignitechain-beta/crypto"
+	"github.com/arjunbeliever/ignite/common/bitutil"
+	"github.com/arjunbeliever/ignite/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

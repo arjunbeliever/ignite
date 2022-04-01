@@ -19,8 +19,8 @@ package memorydb
 import (
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/ethdb"
-	"github.com/ignitechain/ignitechain-beta/ethdb/dbtest"
+	"github.com/arjunbeliever/ignite/ethdb"
+	"github.com/arjunbeliever/ignite/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {

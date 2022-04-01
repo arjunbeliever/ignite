@@ -21,10 +21,10 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/params"
 	"github.com/holiman/uint256"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

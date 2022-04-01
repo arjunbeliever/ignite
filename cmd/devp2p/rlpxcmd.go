@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ignitechain/ignitechain-beta/cmd/devp2p/internal/ethtest"
-	"github.com/ignitechain/ignitechain-beta/crypto"
-	"github.com/ignitechain/ignitechain-beta/internal/utesting"
-	"github.com/ignitechain/ignitechain-beta/p2p"
-	"github.com/ignitechain/ignitechain-beta/p2p/rlpx"
-	"github.com/ignitechain/ignitechain-beta/rlp"
+	"github.com/arjunbeliever/ignite/cmd/devp2p/internal/ethtest"
+	"github.com/arjunbeliever/ignite/crypto"
+	"github.com/arjunbeliever/ignite/internal/utesting"
+	"github.com/arjunbeliever/ignite/p2p"
+	"github.com/arjunbeliever/ignite/p2p/rlpx"
+	"github.com/arjunbeliever/ignite/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

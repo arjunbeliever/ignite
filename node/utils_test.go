@@ -20,8 +20,8 @@
 package node
 
 import (
-	"github.com/ignitechain/ignitechain-beta/p2p"
-	"github.com/ignitechain/ignitechain-beta/rpc"
+	"github.com/arjunbeliever/ignite/p2p"
+	"github.com/arjunbeliever/ignite/rpc"
 )
 
 // NoopLifecycle is a trivial implementation of the Service interface.

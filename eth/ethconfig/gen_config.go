@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/consensus/ethash"
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/eth/downloader"
-	"github.com/ignitechain/ignitechain-beta/eth/gasprice"
-	"github.com/ignitechain/ignitechain-beta/miner"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/consensus/ethash"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/eth/downloader"
+	"github.com/arjunbeliever/ignite/eth/gasprice"
+	"github.com/arjunbeliever/ignite/miner"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 // MarshalTOML marshals as TOML.

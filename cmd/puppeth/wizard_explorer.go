@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

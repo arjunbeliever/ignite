@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/consensus/ethash"
-	"github.com/ignitechain/ignitechain-beta/console/prompt"
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/eth"
-	"github.com/ignitechain/ignitechain-beta/eth/ethconfig"
-	"github.com/ignitechain/ignitechain-beta/internal/jsre"
-	"github.com/ignitechain/ignitechain-beta/miner"
-	"github.com/ignitechain/ignitechain-beta/node"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/consensus/ethash"
+	"github.com/arjunbeliever/ignite/console/prompt"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/eth"
+	"github.com/arjunbeliever/ignite/eth/ethconfig"
+	"github.com/arjunbeliever/ignite/internal/jsre"
+	"github.com/arjunbeliever/ignite/miner"
+	"github.com/arjunbeliever/ignite/node"
 )
 
 const (

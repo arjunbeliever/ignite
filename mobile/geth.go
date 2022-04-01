@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/eth/downloader"
-	"github.com/ignitechain/ignitechain-beta/eth/ethconfig"
-	"github.com/ignitechain/ignitechain-beta/ethclient"
-	"github.com/ignitechain/ignitechain-beta/ethstats"
-	"github.com/ignitechain/ignitechain-beta/internal/debug"
-	"github.com/ignitechain/ignitechain-beta/les"
-	"github.com/ignitechain/ignitechain-beta/node"
-	"github.com/ignitechain/ignitechain-beta/p2p"
-	"github.com/ignitechain/ignitechain-beta/p2p/nat"
-	"github.com/ignitechain/ignitechain-beta/params"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/eth/downloader"
+	"github.com/arjunbeliever/ignite/eth/ethconfig"
+	"github.com/arjunbeliever/ignite/ethclient"
+	"github.com/arjunbeliever/ignite/ethstats"
+	"github.com/arjunbeliever/ignite/internal/debug"
+	"github.com/arjunbeliever/ignite/les"
+	"github.com/arjunbeliever/ignite/node"
+	"github.com/arjunbeliever/ignite/p2p"
+	"github.com/arjunbeliever/ignite/p2p/nat"
+	"github.com/arjunbeliever/ignite/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

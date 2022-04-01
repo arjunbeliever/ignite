@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/arjunbeliever/ignite/common/hexutil"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ignitechain/ignitechain-beta/common/hexutil"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
 )
 
 func TestParseRoot(t *testing.T) {

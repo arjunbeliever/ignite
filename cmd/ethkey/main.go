@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ignitechain/ignitechain-beta/internal/flags"
+	"github.com/arjunbeliever/ignite/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

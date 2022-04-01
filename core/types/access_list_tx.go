@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/ignitechain/ignitechain-beta/common"
+	"github.com/arjunbeliever/ignite/common"
 )
 
 //go:generate gencodec -type AccessTuple -out gen_access_tuple.go

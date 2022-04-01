@@ -19,9 +19,9 @@ package client
 import (
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/les/utils"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/p2p/nodestate"
+	"github.com/arjunbeliever/ignite/les/utils"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/nodestate"
 )
 
 // WrsIterator returns nodes from the specified selectable set with a weighted random

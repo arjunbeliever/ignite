@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common/mclock"
-	"github.com/ignitechain/ignitechain-beta/les/utils"
+	"github.com/arjunbeliever/ignite/common/mclock"
+	"github.com/arjunbeliever/ignite/les/utils"
 )
 
 // requestDistributor implements a mechanism that distributes requests to

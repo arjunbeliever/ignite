@@ -19,8 +19,8 @@ package ethash
 import (
 	"math/big"
 
+	"github.com/arjunbeliever/ignite/core/types"
 	"github.com/holiman/uint256"
-	"github.com/ignitechain/ignitechain-beta/core/types"
 )
 
 const (

@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/core/asm"
+	"github.com/arjunbeliever/ignite/core/asm"
 	"gopkg.in/urfave/cli.v1"
 )
 

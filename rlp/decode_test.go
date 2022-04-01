@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/common/math"
+	"github.com/arjunbeliever/ignite/common/math"
 )
 
 func TestStreamKind(t *testing.T) {

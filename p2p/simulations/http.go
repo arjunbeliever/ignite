@@ -29,12 +29,12 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/arjunbeliever/ignite/event"
+	"github.com/arjunbeliever/ignite/p2p"
+	"github.com/arjunbeliever/ignite/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p/simulations/adapters"
+	"github.com/arjunbeliever/ignite/rpc"
 	"github.com/gorilla/websocket"
-	"github.com/ignitechain/ignitechain-beta/event"
-	"github.com/ignitechain/ignitechain-beta/p2p"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
-	"github.com/ignitechain/ignitechain-beta/p2p/simulations/adapters"
-	"github.com/ignitechain/ignitechain-beta/rpc"
 	"github.com/julienschmidt/httprouter"
 )
 

@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/ignitechain/ignitechain-beta/core"
-	"github.com/ignitechain/ignitechain-beta/eth/protocols/snap"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/core"
+	"github.com/arjunbeliever/ignite/eth/protocols/snap"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

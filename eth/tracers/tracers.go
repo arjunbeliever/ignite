@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/ignitechain/ignitechain-beta/eth/tracers/internal/tracers"
+	"github.com/arjunbeliever/ignite/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

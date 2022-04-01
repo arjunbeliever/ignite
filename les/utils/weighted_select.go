@@ -20,7 +20,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/log"
 )
 
 type (

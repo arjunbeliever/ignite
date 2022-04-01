@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ignitechain/ignitechain-beta/core/types"
+	"github.com/arjunbeliever/ignite/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/event"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/event"
 )
 
 // Config contains the settings of the global account manager.

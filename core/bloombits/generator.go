@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/ignitechain/ignitechain-beta/core/types"
+	"github.com/arjunbeliever/ignite/core/types"
 )
 
 var (

@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ignitechain/ignitechain-beta/common/mclock"
+	"github.com/arjunbeliever/ignite/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

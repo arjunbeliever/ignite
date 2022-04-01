@@ -19,8 +19,8 @@ package console
 import (
 	"testing"
 
+	"github.com/arjunbeliever/ignite/internal/jsre"
 	"github.com/dop251/goja"
-	"github.com/ignitechain/ignitechain-beta/internal/jsre"
 )
 
 // TestUndefinedAsParam ensures that personal functions can receive

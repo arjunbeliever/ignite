@@ -27,10 +27,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/arjunbeliever/ignite/accounts"
+	"github.com/arjunbeliever/ignite/common"
+	"github.com/arjunbeliever/ignite/log"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ignitechain/ignitechain-beta/accounts"
-	"github.com/ignitechain/ignitechain-beta/common"
-	"github.com/ignitechain/ignitechain-beta/log"
 )
 
 // Minimum amount of time between cache reloads. This limit applies if the platform does

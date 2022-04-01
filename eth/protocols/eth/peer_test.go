@@ -22,8 +22,8 @@ package eth
 import (
 	"crypto/rand"
 
-	"github.com/ignitechain/ignitechain-beta/p2p"
-	"github.com/ignitechain/ignitechain-beta/p2p/enode"
+	"github.com/arjunbeliever/ignite/p2p"
+	"github.com/arjunbeliever/ignite/p2p/enode"
 )
 
 // testPeer is a simulated peer to allow testing direct network calls.

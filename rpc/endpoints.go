@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ignitechain/ignitechain-beta/log"
+	"github.com/arjunbeliever/ignite/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.
